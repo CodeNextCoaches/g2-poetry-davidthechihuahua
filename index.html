@@ -4,13 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Poetry</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!-- header start -->
-      <h1>CSS Poetry</h1> 
-      <h2>Poetry Rendered Beautifully</h2>
-    <!-- header end -->
-    <!-- navigation start -->
+<nav>
+    <header>
+      <h1>CSS Poetry</h1>
+      <h2 id="top">Poetry Rendered Beautifully</h2>
+</header>
+
+</nav>
+<main>
       <h2>Poems</h2>
       <ul>
         <li><a href="">"The Rose That Grew From Concrete" by Tupac Shakur</a></li>
@@ -19,7 +23,7 @@
       </ul>
     <!-- navigation end -->
     <!-- main start -->
-      <!-- tupac poem start -->
+      <div id="tupac-poem">
         <h2>The Rose That Grew From Concrete</h2>
         <h3>By <a href="https://en.wikipedia.org/wiki/Tupac_Shakur">Tupac Shakur</a></h3>
         <img src="img/tupac.png" title="Tupac Shakur" alt="photo of Tupac Shakur">
@@ -33,9 +37,9 @@
           Long live the rose that grew from concrete<br>
           when no one else even cared!
         </p>
-        <p><a href="">Back to top</a></p>
-      <!-- tupac poem end -->
-      <!-- shel poem start -->
+        <p><a href="#top">Back to top</a></p>
+      </div>
+      <div id="shel-poem">
         <h2>Masks</h2>
         <h3>By <a href="https://en.wikipedia.org/wiki/Shel_Silverstein">Shel Silverstein</a></h3>
         <img src="img/shel.png" title="Shel Silverstein" alt="photo of Shell Silverstein">
@@ -49,9 +53,9 @@
           Then passed right by–<br>
           And never knew.
         </p>
-        <p><a href="">Back to top</a></p>
-      <!-- shel poem end -->
-      <!-- rosario poem start -->
+        <p><a href="#top">Back to top</a></p>
+      </div>
+      <div id="rosario-poem">
         <h2>Nocturne</h2>
         <h3>By <a href="https://en.wikipedia.org/wiki/Rosario_Castellanos">Rosario Castellanos</a></h3>
         <img src="img/rosario.png" title="Rosario Castellanos" alt="photo of Rosario Castellanos">
@@ -61,9 +65,9 @@
           What have we come for, night, heart of night?<br>
           Dream that we do not die<br>
           And, at times, for a moment, wake.
-        </p>  
-        <p><a href="">Back to top</a></p>
-      <!-- rosario poem end -->
-    <!-- main end -->
+        </p>
+        <p><a href="#top">Back to top</a></p>
+      </div>
+    </main>
   </body>
 </html>
